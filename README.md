@@ -1,5 +1,6 @@
 
-**What is simpleEncryptedStorage?**
+##**What is simpleEncryptedStorage?**##
+
 simpleEncryptedStorage lets you encrypt (AES-CBC Mode) your files (you must be owner of the files) and store them on the cloud (you must have an SSH connection to your server)
 
 At the beginning, the program will ask you IP, user and password to make SSH connection.
@@ -27,17 +28,20 @@ Deletes the file from your cloud (Before issuing this command, be sure you downl
 `> exit` 
 Quit program
 
-**Installation**
+##**Installation**##
+
  Create a virtual environment (Python 3.6)  
  Install python packages by issuing `pip install -r requirements.txt`  
  Open your virtual environment folder, go to *lib/python3.6/site-packages* - Change 'crypto' to 'Crypto' (Make it uppercase)   
  Run the program, `python main.py`
 
-**Disclaimer:**
+##**Disclaimer:**##
+
 I did not test it with large files yet, so I don't know how big files are supported.  
 Sometimes program may crash due to unknown reason, I will try to figure it out following days, do not hesitate to 
 
 Thank you, Batuhan KAYIM
 
-**Sources**
+##**Sources**##
+
 AESCipher Class is taken from this [gist](https://gist.github.com/forkd/168c9d74b988391e702aac5f4aa69e41) and modified a bit
