@@ -38,7 +38,7 @@ Quit program
 ## Disclaimer ##
 
 I did not test it with large files yet, so I don't know how big files are supported.  
-Sometimes program may crash due to unknown reason, I will try to figure it out following days, do not hesitate to 
+Sometimes program may crash due to unknown reason, I will try to figure it out following days. Do not hesitate to give a hand. 
 
 Thank you, Batuhan KAYIM
 
